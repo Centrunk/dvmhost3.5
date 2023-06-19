@@ -1,6 +1,8 @@
+**Flashing Firmware**
+
 For flashing, refer to https://www.centrunk.net/getting-started
 
-Create DVMhost 3.5
+**Create DVMhost 3.5**
 
 ```sudo apt update```
 
@@ -8,7 +10,7 @@ Create DVMhost 3.5
 
 ```sudo mkdir -p /opt/centrunk```
 
-```cd /opt/centrunk```
+`cd /opt/centrunk`
 
 ```sudo git clone --recurse-submodules https://github.com/DVMProject/dvmhost.git```
 
