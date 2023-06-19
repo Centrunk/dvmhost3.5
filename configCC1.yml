@@ -214,6 +214,6 @@ system:
         time: 2
         acl: true
     talkgroup_id:
-        file: /opt/centrunk/dvmhost/tg_acl.dat
+        file: /opt/centrunk/dvmhost/tg_acl.yml
         time: 2
         acl: true
