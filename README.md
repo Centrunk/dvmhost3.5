@@ -20,4 +20,4 @@ Create DVMhost 3.5
 
 Refer to spread sheet for Updated rid_acl.dat. Download sheet as csv, change extension to ```.dat```, put in dvmhost directory.
 
-For 
+For tg_acl.yml, copy from github and put in dvmhost directory as tg_acl.yml   ```sudo nano /opt/centrunk/dvmhost/tg_acl.yml``` copy and pasta
