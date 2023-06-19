@@ -17,3 +17,7 @@ Create DVMhost 3.5
 ```sudo cmake -DENABLE_DMR=0 -DENABLE_NXDN=0 -DENABLE_TUI_SUPPORT=0```
 
 ```sudo make```
+
+Refer to spread sheet for Updated rid_acl.dat. Download sheet as csv, change extension to ```.dat```, put in dvmhost directory.
+
+For 
