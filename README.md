@@ -22,4 +22,6 @@ For flashing, refer to https://www.centrunk.net/getting-started
 
 Refer to spread sheet for Updated `rid_acl.dat`. Download sheet as csv, change extension to `.dat`, put in dvmhost directory.
 
-For `tg_acl.yml`, copy from github and put in dvmhost directory as tg_acl.yml   `sudo nano /opt/centrunk/dvmhost/tg_acl.yml` copy and pasta
+For `tg_acl.yml`, copy from github and put in dvmhost directory as tg_acl.yml
+
+`sudo nano /opt/centrunk/dvmhost/tg_acl.yml` copy and pasta
