@@ -56,12 +56,12 @@ protocols:
             ackRequests: true
             dedicated: true
             broadcast: true
-            interval: 300
-            duration: 1
+            interval: 30
+            duration: 29
             disableTSDUMBF: false
             enableTimeDateAnn: true
         voiceOnControl: true
-        disableCompositeFlag: true
+        disableCompositeFlag: false
         inhibitIllegal: false
         legacyGroupGrnt: true
         legacyGroupReg: false
