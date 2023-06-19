@@ -56,8 +56,8 @@ protocols:
             ackRequests: true
             dedicated: false
             broadcast: false
-            interval: 300
-            duration: 1
+            interval: 30
+            duration: 29
             disableTSDUMBF: false
             enableTimeDateAnn: true
         voiceOnControl: false
