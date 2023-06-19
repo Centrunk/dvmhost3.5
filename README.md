@@ -14,7 +14,7 @@ For flashing, refer to https://www.centrunk.net/getting-started
 
 `sudo git clone --recurse-submodules https://github.com/DVMProject/dvmhost.git`
 
-`cd dvmhost```
+`cd dvmhost`
 
 `sudo cmake -DENABLE_DMR=0 -DENABLE_NXDN=0 -DENABLE_TUI_SUPPORT=0`
 
