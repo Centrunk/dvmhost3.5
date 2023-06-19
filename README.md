@@ -5,9 +5,15 @@ Create DVMhost 3.5
 ```sudo apt update```
 
 ```sudo apt install -y cmake build-essential git libasio-dev libncurses-dev```
+
 ```sudo mkdir -p /opt/centrunk```
+
 ```cd /opt/centrunk```
+
 ```sudo git clone --recurse-submodules https://github.com/DVMProject/dvmhost.git```
+
 ```cd dvmhost```
+
 ```sudo cmake -DENABLE_DMR=0 -DENABLE_NXDN=0 -DENABLE_TUI_SUPPORT=0```
+
 ```sudo make```
