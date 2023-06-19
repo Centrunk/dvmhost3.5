@@ -1,0 +1,621 @@
+#
+# Digital Voice Modem - Fixed Network Equipment (Talkgroup Routing Rules)
+#
+# @package DVM / Fixed Network Equipment
+#
+
+  groupVoice:
+  
+  #SYSTEMWIDE
+    - name: xOPS
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 31611
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 31611
+          slot: 1
+          
+    - name: xTAC1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 31612
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 31612
+          slot: 1
+          
+    - name: xTAC2
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 31613
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 31613
+          slot: 1        
+            
+    - name: xTAC3
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 31614
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 31614
+          slot: 1
+          
+    - name: xTX SW OP
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 31616
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 31616
+          slot: 1    
+                
+    - name: xSKYWARN
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 31617
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 31617
+          slot: 1   
+          
+    - name: xHELPDESK
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54554
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54554
+          slot: 1  
+                         
+    - name: xLECALL
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54555
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54555
+          slot: 1
+          
+    - name: xLECOM1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54502
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54502
+          slot: 1          
+
+    - name: xLECOM2
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54505
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54505
+          slot: 1
+          
+    - name: xLECOM3
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54508
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54508
+          slot: 1      
+          
+    - name: xECALL
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54586
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54586
+          slot: 1          
+          
+    - name: xECOMM1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54587
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54587
+          slot: 1                     
+
+    - name: xECOMM2
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 54625
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 54625
+          slot: 1
+          
+     #AREA 1- TRAVIS       
+    - name: 1AUSTIN
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 8770
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 8770
+          slot: 1
+          
+    - name: 1ROSECOM1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1000
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1000
+          slot: 1 
+          
+    - name: 1ROSECOM2
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1001
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1001
+          slot: 1          
+          
+    - name: 1ROSETC1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1002
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1002
+          slot: 1         
+                            
+    - name: 1ROSETC2
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1003
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1003
+          slot: 1
+          
+    - name: 1ROSETC3
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1004
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1004
+          slot: 1  
+          
+    - name: 1FLEETCOM1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1005
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1005
+          slot: 1          
+                  
+    #AREA 2 DFW
+    
+    - name: 2DFW
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 817
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 817
+          slot: 1    
+          
+    - name: 2DFW TAC1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 818
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 818
+          slot: 1
+          
+      #AREA 3 LA CO
+      
+    - name: 3LA CO
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 909
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 909
+          slot: 1         
+     
+    - name: 3LA TAC
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 910
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 910
+          slot: 1   
+          
+    - name: 3YELLCO1
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6694
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6694
+          slot: 1   
+          
+    - name: 3YELLCO 2
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6695
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6695
+          slot: 1     
+          
+    - name: 3ENFIELD PVT
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6692
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6692
+          slot: 1                      
+          
+#PVT TGS          
+
+    - name: static pvt
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6682
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6682
+          slot: 1
+            
+    - name: lastationpvt
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6683
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6683
+          slot: 1     
+
+    - name: alexs pvt
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6684
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6684
+          slot: 1
+
+    - name: cates pvt
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6690
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6690
+          slot: 1
+
+    - name: katt pvt
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6692
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6692
+          slot: 1
+
+    - name: faulty pvt
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6694
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6694
+          slot: 1
+
+#games
+
+    - name: MS RD
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 123
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 123
+          slot: 1
+
+    - name: A1 R LE 01
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1056
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1056
+          slot: 1
+
+    - name: CATA OPS
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1057
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1057
+          slot: 1
+
+    - name: BEE OEM
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 6926
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 6926
+          slot: 1
+
+#ADMIN
+
+    - name: ADMIN OPS
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 1
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 1
+          slot: 1
+
+    - name: ADMIN TAC
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 2
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 2
+          slot: 1
+
+    - name: DMR T3 TEST
+      config:
+        active: true
+        affiliated: true
+        routable: false
+        ignored: []
+      source:
+        tgid: 3
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 3
+          slot: 1
+
+    - name: SUPER GROUP
+      config:
+        active: true
+        affiliated: false
+        routable: false
+        ignored: []
+      source:
+        tgid: 2321
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 2321
+          slot: 1
+          
+    - name: MX ANN
+      config:
+        active: true
+        affiliated: false
+        routable: false
+        ignored: []
+      source:
+        tgid: 65534
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 65534
+          slot: 1          
