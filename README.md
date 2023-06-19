@@ -3,6 +3,7 @@ For flashing, refer to https://www.centrunk.net/getting-started
 Create DVMhost 3.5
 
 ```sudo apt update```
+
 ```sudo apt install -y cmake build-essential git libasio-dev libncurses-dev```
 ```sudo mkdir -p /opt/centrunk```
 ```cd /opt/centrunk```
