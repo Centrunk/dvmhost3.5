@@ -1,3 +1,7 @@
+# Official DVM3.5 FNE2 Test Server
+**ZT IP: 10.147.17.245 Port: 63030**
+---
+
 **Flashing Firmware**
 
 For flashing, refer to https://www.centrunk.net/getting-started
