@@ -141,13 +141,13 @@ system:
         time: 15
         callsign: WRUP970
     iden_table:
-        file: /opt/centrunk/dvmhost/iden_table.dat
+        file: /opt/centrunk/configs/iden_table.dat
         time: 30
     radio_id:
-        file: /opt/centrunk/dvmhost/rid_acl.dat
+        file: /opt/centrunk/configs/rid_acl.dat
         time: 2
         acl: true
     talkgroup_id:
-        file: /opt/centrunk/dvmhost/tg_acl.yml
+        file: /opt/centrunk/configs/tg_acl.yml
         time: 2
         acl: true
