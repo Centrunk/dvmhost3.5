@@ -12,7 +12,7 @@ For flashing, refer to https://www.centrunk.net/getting-started
 
 `sudo apt install -y cmake build-essential git libasio-dev libncurses-dev`
 
-`sudo mkdir -p /opt/centrunk`
+`sudo mkdir -p /opt/centrunk/configs`
 
 `cd /opt/centrunk`
 
@@ -24,8 +24,10 @@ For flashing, refer to https://www.centrunk.net/getting-started
 
 `sudo make`
 
-Refer to spread sheet for Updated `rid_acl.dat`. Download sheet as csv, change extension to `.dat`, put in dvmhost directory.
+Refer to spread sheet for Updated `rid_acl.dat`. Download sheet as csv, change extension to `.dat`, put in `/opt/centrunk/configs` directory.
 
-For `tg_acl.yml`, copy from github and put in dvmhost directory as tg_acl.yml
+For `tg_acl.yml`, copy from github and put in `/opt/centrunk/configs` directory as tg_acl.yml
 
-`sudo nano /opt/centrunk/dvmhost/tg_acl.yml` copy and pasta
+`sudo nano /opt/centrunk/configs/tg_acl.yml` copy and pasta
+
+Copy the appropriate config file you are wanting to use and save it in `/opt/centrunk/configs`
