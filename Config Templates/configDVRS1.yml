@@ -38,7 +38,7 @@ protocols:
             enableTimeDateAnn: true
         voiceOnControl: false
         disableCompositeFlag: false
-        inhibitIllegal: false
+        inhibitUnauthorized: false
         legacyGroupGrnt: true
         legacyGroupReg: false
         verifyAff: false
