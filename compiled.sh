@@ -3,7 +3,7 @@
 #Created by NineJuanJuan
 
 mkdir /opt/centrunk
-mkdir /var/log/centrunk
+mkdir /var/log/centrunk3.5
 mkdir /opt/centrunk/configs
 cd /opt/centrunk
 rm -rf dvmhost
