@@ -2,8 +2,8 @@ daemon: false
 log:
     displayLevel: 1
     fileLevel: 1
-    filePath: .
-    activityFilePath: .
+    filePath: /var/log/centrunk3.5
+    activityFilePath: /var/log/centrunk3.5
     fileRoot: DVM-CC1
 network:
     enable: true
