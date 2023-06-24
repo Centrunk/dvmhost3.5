@@ -4,6 +4,7 @@
 
 mkdir /opt/centrunk
 mkdir /var/log/centrunk
+mkdir /opt/centrunk/configs
 cd /opt/centrunk
 rm -rf dvmhost
 rm -rf dvmhost.tar.gz
