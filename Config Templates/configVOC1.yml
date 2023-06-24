@@ -36,9 +36,10 @@ protocols:
             duration: 29
             disableTSDUMBF: false
             enableTimeDateAnn: true
+            redundantGrantTransmit: true
         voiceOnControl: true
         disableCompositeFlag: false
-        inhibitIllegal: false
+        inhibitUnauthorized: false
         legacyGroupGrnt: true
         legacyGroupReg: false
         verifyAff: false
