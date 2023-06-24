@@ -1,5 +1,6 @@
 # Official DVM3.5 FNE2 Test Server
 **ZT IP: 10.147.17.245 Port: 63030**
+
 ---
 
 **Flashing Firmware**
@@ -31,3 +32,9 @@ For `tg_acl.yml`, copy from github and put in `/opt/centrunk/configs` directory 
 `sudo nano /opt/centrunk/configs/tg_acl.yml` copy and pasta
 
 Copy the appropriate config file you are wanting to use and save it in `/opt/centrunk/configs`
+
+---
+
+# Compiled DVMhost 3.5 32-bit
+
+
