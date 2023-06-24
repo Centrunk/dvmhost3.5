@@ -37,4 +37,13 @@ Copy the appropriate config file you are wanting to use and save it in `/opt/cen
 
 # Compiled DVMhost 3.5 32-bit
 
+`wget https://10.147.17.100/complied.sh`
+
+This will pull a script from Juan's host server that will create appropriate directories if not already made and pull complied dvmhost.
+
+Follow steps above for tg_acl.yml, rid_acl.dat, and configs.
+
+`sudo sh -x compiled.sh`
+
+You can run compiled.sh again for another dvmhost update if one is pushed from DVMProject.
 
