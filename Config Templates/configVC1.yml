@@ -81,7 +81,7 @@ system:
         channelNo: 910
         controlCh:
             restAddress: xCC-ZT-IPx
-            restPort: 9991
+            restPort: 9990
             restPassword: "Centrunk!"
             notifyEnable: true
         voiceChNo:

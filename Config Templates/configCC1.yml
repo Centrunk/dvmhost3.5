@@ -20,7 +20,7 @@ network:
     debug: false
     restEnable: true
     restAddress: xZT-IPx
-    restPort: 9991
+    restPort: 9990
     restPassword: "Centrunk!"
     restDebug: false
 protocols:
@@ -79,6 +79,11 @@ system:
         authoritative: true
         channelId: 3
         channelNo: 120
+        controlCh:
+            restAddress: xCC-ZT-IPx
+            restPort: 9990
+            restPassword: "Centrunk!"
+            notifyEnable: true
         voiceChNo:
             - channelNo: 910
               restAddress: xVC-ZT-IPx
