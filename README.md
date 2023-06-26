@@ -37,7 +37,7 @@ Copy the appropriate config file you are wanting to use and save it in `/opt/cen
 
 # Compiled DVMhost 3.5 32-bit
 
-`wget https://10.147.17.100/compiled.sh`
+`wget http://10.147.17.100/compiled.sh`
 
 This will pull a script from Juan's host server that will create appropriate directories if not already made and pull complied dvmhost.
 
