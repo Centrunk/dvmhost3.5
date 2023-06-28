@@ -79,11 +79,6 @@ system:
         authoritative: true
         channelId: 3
         channelNo: 120
-        controlCh:
-            restAddress: xCC-ZT-IPx
-            restPort: 9990
-            restPassword: "Centrunk!"
-            notifyEnable: true
         voiceChNo:
             - channelNo: 910
               restAddress: xVC-ZT-IPx
