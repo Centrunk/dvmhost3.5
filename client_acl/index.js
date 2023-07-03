@@ -10,7 +10,7 @@ import fs from 'fs';
 import yaml from 'js-yaml';
 
 
-const fneHost = `http://10.147.17.8:3002/update/host/acl`;
+const fneHost = `https://export.acl.centrunk.agency/update/host/acl`;
 const acl_path = "/opt/centrunk/configs/rid_acl.dat";
 const dvm_config_path = "/opt/centrunk/configs/";
 
