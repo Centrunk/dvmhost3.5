@@ -2,8 +2,8 @@ daemon: false
 log:
     displayLevel: 1
     fileLevel: 1
-    filePath: /var/log/centrunk3.5
-    activityFilePath: /var/log/centrunk3.5
+    filePath: /var/log/centrunk
+    activityFilePath: /var/log/centrunk
     fileRoot: DVM-DVRS1
 network:
     enable: true
@@ -54,7 +54,7 @@ protocols:
         sndcpGrant: false
         silenceThreshold: 124
         disableNetworkHDU: false
-        emergDisabled: false
+        emergDisabled: true
         queueSize: 15
         verbose: true
         debug: false
