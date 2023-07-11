@@ -48,7 +48,7 @@ try {
 
 var dvm_node_id = null;
 
-const fileNames = ['configCC1.yml', 'configVC1.yml', 'configCONV1.yml', 'configDVRS1.yml'];
+const fileNames = ['configCC1.yml', 'configVC1.yml', 'configCONV1.yml', 'configDVRS1.yml', 'configVOC1.yml'];
 let found = false;
 
 for (const fileName of fileNames) {
