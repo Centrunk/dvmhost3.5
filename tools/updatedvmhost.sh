@@ -25,12 +25,12 @@ done
 
 rm -rf /opt/centrunk/dvmhost/dvmhost
 rm -rf /opt/centrunk/dvmhost/dvmcmd
-rm -rf /opt/centrunk/utils
-git clone https://github.com/Centrunk/dvmhost3.5.git /opt/centrunk/utils
+rm -rf /opt/centrunk/util
+git clone https://github.com/Centrunk/dvmhost3.5.git /opt/centrunk/util
 
 architecture=$(uname -m)
 
-source_path="/opt/centrunk/utils/bin"
+source_path="/opt/centrunk/util/bin"
 destination_path="/opt/centrunk/dvmhost/"
 
 if [[ $architecture == "x86_64" ]]; then
