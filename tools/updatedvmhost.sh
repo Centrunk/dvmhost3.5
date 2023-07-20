@@ -57,11 +57,11 @@ elif [[ $architecture == "armhf" ]]; then
     chmod +x /opt/centrunk/dvmhost/dvmcmd
     echo "File copied for arm64 architecture."
 
-elif [[ $architecture == "armv7l" ]]; then
+elif [[ $architecture == "armv*" ]]; then
     cp -r "$source_path/armhf/." "$destination_path"
     chmod +x /opt/centrunk/dvmhost/dvmhost
     chmod +x /opt/centrunk/dvmhost/dvmcmd
-    echo "File copied for armv7l architecture."
+    echo "File copied for armv 32bit architecture."
 
 else
     echo "Unsupported architecture: $architecture"
