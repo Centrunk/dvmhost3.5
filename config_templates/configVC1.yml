@@ -76,7 +76,7 @@ system:
         power: 1
         location: "Texas, USA"
     config:
-        authoritative: true
+        authoritative: false
         channelId: 3
         channelNo: 910
         controlCh:
