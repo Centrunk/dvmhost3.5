@@ -1,5 +1,13 @@
 #!/bin/bash
 
+curl -s https://raw.githubusercontent.com/Centrunk/dvmhost3.5/main/currenthash.txt -o /tmp/hash.txt
+
+myhash = $(md5sum /opt/centrunk/dvmhost/dvmhost | awk '{ print $1 }')
+
+if cat /tmp/hash.txt | grep -q $myhash ; then
+    exit 0
+fi
+
 is_service_running() {
     local service_name=$1
     systemctl is-active --quiet "$service_name"
