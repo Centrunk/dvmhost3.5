@@ -3,7 +3,7 @@
 rm -rf /tmp/hash.txt
 curl -s https://raw.githubusercontent.com/Centrunk/dvmhost3.5/main/currenthash.txt -o /tmp/hash.txt
 
-myhash=$(md5sum /opt/centrunk/dvmhost/dvmhost | awk '{ print $1 }')
+myhash=$(/opt/centrunk/dvmhost/dvmhost -h | head -n1 | awk {'print $7'} | sed s/\(//g | sed s/\)//g)
 
 if cat /tmp/hash.txt | grep -q $myhash ; then
     exit 0
