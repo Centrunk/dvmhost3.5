@@ -87,6 +87,7 @@ system:
         nac: xNACx
         ran: 1
         pSuperGroup: 0911
+        announcementGroup: 0911
         netId: DEE00
         sysId: 13B
         rfssId: 1
