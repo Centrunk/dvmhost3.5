@@ -77,6 +77,7 @@ system:
         location: "Texas, USA"
     config:
         authoritative: true
+        supervisor: true
         channelId: 3
         channelNo: 910
         controlCh:
