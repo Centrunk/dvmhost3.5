@@ -1,8 +1,0 @@
-# Log path for client_acl for info
-logLocation: "client_acl.log"
-# Path to DVMHOST configs
-dvmConfigPath: "/opt/centrunk/configs/"
-# Path to acl.dat
-aclPath: "/opt/centrunk/configs/rid_acl.dat"
-# Place to call home that grabs the ACL data
-fneHost: "https://export.acl.centrunk.agency/update/host/acl"
