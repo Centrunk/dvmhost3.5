@@ -12,17 +12,30 @@
         routable: false
         ignored: []
       source:
-        tgid: 31611
+        tgid: 500
         slot: 1
       destination:
         - network: Centrunk
-          tgid: 31611
+          tgid: 500
           slot: 1
 
     - name: SUPERGROUP
       config:   
         active: true
-        affiliated: true
+        affiliated: false
+        routable: false
+        ignored: []
+      source:
+        tgid: 50
+        slot: 1
+      destination:
+        - network: Centrunk
+          tgid: 50
+          slot: 1
+    - name: ANNOUNCE
+      config:   
+        active: true
+        affiliated: false
         routable: false
         ignored: []
       source:
